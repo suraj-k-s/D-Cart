@@ -1,0 +1,21 @@
+.textarea_style{
+    border-radius: 15px;
+    border: 0;
+    padding-left: 10px;
+    width: 280px;
+}
+.profilepic_style{
+    border-radius: 9999px;
+    background-color: white;
+    width: 150px;
+    height: 150px;
+    margin-top: -80px;
+    margin-left: 110px;
+}
+.btn{
+    margin-top: 1rem;
+    a{
+        font-weight: 600;
+        color: var(--whiteColor);
+    }
+}

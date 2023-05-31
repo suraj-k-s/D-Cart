@@ -1,0 +1,48 @@
+:root {
+    --PrimaryColor: hsl(199, 100%, 33%);
+    --SecondaryColor: hsl(187, 85%, 43%);
+    --gradientColor: linear-gradient(to right, hsl(187, 85%, 43%), hsl(199, 100%, 33%));
+    --whiteColor: hsl(0, 0%, 100%);
+    --blackColor: Ohsl(201, 33%, 16%);
+    --textColor: hsl(240, 4%, 36%);
+    --whiteColorDeam: hsl(0, 0%, 93%);
+    --greyText: rgb(190, 190, 190);
+    --inputColor: rgb(239, 239, 239);
+    --bodyColor: rgb(240, 240, 246);
+    --cardBG: rgb(225, 225, 235);
+    --cardHover: rgb(225, 225, 235);
+}
+.main_div{
+    height: 760px;
+    width: 1080x;
+    background-color: pink;
+   padding-top: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+.box{
+    height: 80%;
+    width: 20%;
+    background-color: rgb(171, 13, 40);
+    margin: 30px;
+    border-radius: 15px;
+}
+.heading_pos{
+    display: flex;
+    justify-content: left;
+    padding-top: 300px;
+}
+.heading{
+    color: black;
+    font-size: 21px;
+}
+.desc_pos{
+    color:blue;
+    padding-top: 15px;
+}
+.btn_pos{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}

@@ -1,0 +1,12 @@
+table{
+    margin: 0 auto;
+}
+td{
+   padding: 0 20px;
+   color: hsl(240, 4%, 36%);
+   font-size: 22px;
+}
+select{
+    padding: 7px;
+    border-radius: 19px;
+}

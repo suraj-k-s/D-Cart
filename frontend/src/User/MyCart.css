@@ -1,0 +1,124 @@
+.shopping-cart {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 20px;
+  }
+  
+  .shopping-cart__title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .shopping-cart__empty-message {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+  .shopping-cart__empty-message span {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .shopping-cart__empty-message button {
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+  
+  .shopping-cart__item {
+    border: 1px solid #ccc;
+    display: flex;
+    margin-bottom: 20px;
+    padding: 10px;
+  }
+  
+  .shopping-cart__item-details {
+    display: flex;
+    flex: 1;
+  }
+  
+  .shopping-cart__item-img {
+    margin-right: 20px;
+  }
+  
+  .shopping-cart__item-img img {
+    max-width: 100%;
+  }
+  
+  .shopping-cart__item-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .shopping-cart__item-slno {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .shopping-cart__item-name {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .shopping-cart__item-rate {
+    font-size: 16px;
+  }
+  
+  .shopping-cart__item-actions {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 150px;
+  }
+  
+  .shopping-cart__item-quantity-label {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .shopping-cart__item-quantity-input {
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .shopping-cart__item-remove-btn {
+    background-color: #dc3545;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+  
+  .shopping-cart__total-price {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: right;
+  }
+  
+  .shopping-cart__checkout-btn {
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    padding: 10px 20px;
+  }
+  
